@@ -1,0 +1,23 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+body{
+  padding-top: 30%;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: aqua;
+  width: 300px;
+}
+.card input{
+  width: 80%;
+}
+.card input:first-child{
+  margin-top: 20px;
+}
+.card input:last-child{
+  margin-bottom: 20px;
+}
